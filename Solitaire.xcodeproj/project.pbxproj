@@ -13,6 +13,7 @@
 		58F37C351C02FA3D00980AC1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58F37C321C02FA3D00980AC1 /* README.txt */; };
 		58F37C361C02FA3D00980AC1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58F37C331C02FA3D00980AC1 /* README.txt */; };
 		58F37C381C02FA8400980AC1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F37C371C02FA8400980AC1 /* CoreMedia.framework */; };
+		9723B0121DF474EE003A0C2D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9723B0111DF474EE003A0C2D /* Media.xcassets */; };
 		F990684B192FA1DE008FB424 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F990684A192FA1DE008FB424 /* QuartzCore.framework */; };
 		F990684D192FA1DE008FB424 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F990684C192FA1DE008FB424 /* OpenGLES.framework */; };
 		F990684F192FA1DE008FB424 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F990684E192FA1DE008FB424 /* OpenAL.framework */; };
@@ -548,6 +549,7 @@
 		58F37C321C02FA3D00980AC1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		58F37C331C02FA3D00980AC1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		58F37C371C02FA8400980AC1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9723B0111DF474EE003A0C2D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		F9906847192FA1DE008FB424 /* solitaire6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = solitaire6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F990684A192FA1DE008FB424 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F990684C192FA1DE008FB424 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1403,6 +1405,7 @@
 		F990683E192FA1DD008FB424 = {
 			isa = PBXGroup;
 			children = (
+				9723B0111DF474EE003A0C2D /* Media.xcassets */,
 				F9906A03192FA32F008FB424 /* Classes */,
 				F9906A3A192FA32F008FB424 /* Common */,
 				F9906AA3192FA32F008FB424 /* Extern */,
@@ -2807,6 +2810,7 @@
 				F9906EA1192FA331008FB424 /* Icon-Small@2x.png in Resources */,
 				F9906ED1192FA331008FB424 /* bt_drawThree_off_iPad.png in Resources */,
 				F9906EB4192FA331008FB424 /* bt_bg_1_on_iPad.png in Resources */,
+				9723B0121DF474EE003A0C2D /* Media.xcassets in Resources */,
 				F9906FC1192FA331008FB424 /* bt_card_4_on.png in Resources */,
 				F9907038192FA331008FB424 /* bt_card_0_on@2x.png in Resources */,
 				F990702D192FA331008FB424 /* bt_bg_0_off@2x.png in Resources */,
@@ -3922,6 +3926,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -3954,6 +3960,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
