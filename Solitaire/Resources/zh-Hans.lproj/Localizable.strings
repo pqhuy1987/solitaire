@@ -1,0 +1,97 @@
+"No Mail Accounts" = "没有邮箱账号";
+"Please set up a Mail account in order to send email." = "请建立一个邮箱账号来发邮件";
+"OK" = "好";
+
+//
+"Review App"="评论游戏";
+"Enjoy our game? Would you mind taking a minute to give us 5 stars?"="觉得我们的游戏不错？请给我们打五星并评论它。";
+"Remind me later"="稍后提醒";
+"Yes"="确定";
+
+"Like The Game?" = "评论游戏";
+"Please support us by rating it in the App Store!" = "请评论我们的游戏，谢谢您的支持！";
+"No,Thanks" = "不，谢谢";
+//
+"Please Wait"="请稍后";
+"No Internet Connection"="无法连接到网络";
+"Cannot connect to store. Make sure your internet connection is available."="无法连接到苹果商店。请检查网络是否可用。";
+"OK"="好";
+"Warning"="警告";
+"Purchases are disabled"="不可购买";
+"No"="取消";
+"Yes"="确定";
+"Success"="成功";
+"Purchases complete"="购买完成";
+"Purchases restore"="购买恢复";
+"Error"="错误";
+"Purchases failed"="购买失败";
+//
+"version %@"="版本 %@";
+"developed by"="开发公司";
+//
+"Welcome!"="你好!";
+"It's your first play, Would you like to restore your game now?"="如果你以前购买过可恢复的功能，点击‘恢复’可以恢复该功能，否则点取消。";
+"Cancel"="取消";
+"Restore"="恢复";
+//
+"Restore Purchases"="恢复购买的产品";
+"If you've previously purchased REMOVE ADS, this will restore it for free."="如果你之前购买了“去广告”，这次将免费恢复。";
+"Cancel"="取消";
+"Ok"="确定";
+
+"Please Wait..."    = "请稍等...";
+"Purchase Succeed"  = "购买成功";
+"Purchase Failed"   = "购买失败";
+
+
+"Rules" = "规则";
+"Statistics" = "统计";
+"Leaderboard" = "排行榜";
+"Tell a friend" = "推荐好友";
+"Draw One" = "翻一张";
+"Draw Three" = "翻三张";
+"Resume" = "继续";
+"Replay" = "新游戏";
+"Menu" = "主菜单";
+"Best:%.0f" = "最高分:%.0f";
+"Score:%.0f" = "得分:%.0f";
+"Score: %d" = "得分: %d";
+"Best: %d" = "最高分: %d";
+"Time:%@" = "时间:%@";
+"Best score:" = "最佳分数:";
+"Best time:" = "最佳时间:";
+"Win percentage:" = "胜率:";
+"Games played:" = "游戏次数:";
+"Games won:" = "胜利次数:";
+"Reset" = "重置";
+"Scorll to see more" = "拖动查看更多内容";
+"Options" = "选项";
+"Music" = "音乐";
+"Sound" = "声音";
+"YES" = "开";
+"NO" = "关";
+"Score:" = "分数:";
+"Time:" = "时间:";
+"Best:" = "最高分:";
+"Moves:" = "步数:";
+"Suspend" = "暂停";
+"Are you sure you want to abandon the saved game?" = "当前游戏记录会被删除，是否继续？";
+"Do you really want to reset your statistics?" = "确定要重新设置你的统计信息?";
+"Auto Finish" = "自动完成";
+"There is no card can be moved" = "没有可移动的牌";
+
+"Least moves:" = "最少步数:";
+"Bonus  x%d" = "倍数  x%d";
+"Score  %d" = "得分  %d";
+"Time  %@" = "时间  %@";
+"Move  %d" = "步数  %d";
+"Background" = "背景";
+"Card" = "牌";
+"Click to resume" = "点击继续";
+"New Game" = "新游戏";
+"Share" = "分享";
+
+"STHeitiSC-Medium" = "ArialRoundedMTBold";
+
+"Solitaire Free! It was a very addictive game. Join us!" = "经典游戏《纸牌接龙》 画面精美值得收藏";
+//

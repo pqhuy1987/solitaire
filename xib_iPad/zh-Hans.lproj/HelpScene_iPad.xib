@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5053" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1072" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HelpScene">
+            <connections>
+                <outlet property="m_animView" destination="1" id="40"/>
+                <outlet property="m_button" destination="11" id="41"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="AutoView">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bg_rule_iPad.png" id="9">
+                    <rect key="frame" x="90" y="157" width="588" height="596"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" id="15">
+                    <rect key="frame" x="125" y="171" width="517" height="557"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <string key="text">纸牌接龙只用一副牌玩,共 52 张。 游戏目标是翻开所有的纸牌并挪至收牌区。收牌区一共有四列牌叠(每套花色个一列 ),需
+按升序排列(从 A 到 K)。
+玩牌区一共有七列牌叠,需按降序排列(从 K 到 A),且红黑花色必须交错。您可以在不同 列之间移动一列牌的部分或全部,只要他们是降序排列并且花色交错。只有 K 或者 K 开头 的一列牌可以移动填补到空白列。
+手牌区一共有一列牌叠 。手牌区的牌是还没有移动到收牌区和玩牌区的牌 。取决于模式的设 置,您可以一次翻一张牌或三张牌,无限次地反复翻开手牌区所有的牌。
+手牌区的牌被翻开后会自动放到废牌区 。您可以移动废牌区的顶牌到收牌区或玩牌区相应的 位置。
+您可以从废牌区,收牌区,和玩牌区拖拽一张或一串纸牌,然后放置到玩牌区和收牌区 。单 击手牌区将翻开一张或三张牌到废牌区(取决于您的设置选项 )。单击玩牌区的一张牌将自 动放置在可放置的位置上,优先放置在收牌区内。
+不是所有的游戏都可以接龙成功。翻一张牌的模式比翻三张牌的模式更容易成功。
+
+x 系数:
+x 系数(例如×88)显示屏幕底部。x 乘数会随着时间慢慢减小。它用于计算每一步所得到 的分数。乘数越大,则这一步所得到的分数就越多。换句话说,游戏开始时走动的步数要比 结束时所走的步数的得分高一些。
+
+计分：
+每一局游戏开局时计分为 0 分。 将纸牌从玩牌区向收牌区添加一张牌可以得 15 分。 将纸牌从废牌区向收牌区添加一张牌可以得 10 分。 将纸牌从废牌区向玩牌区添加一张牌可以得 5 分。 在玩牌区翻出一张新牌得 5 分。 将纸牌从收牌区向玩牌区添加一张牌减 15 分。 在翻三张牌的模式下,每翻完一遍手牌区所有的牌减 20 分。 在翻一张牌的模式下,每翻完一遍手牌区所有的牌减 100 分。 </string>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="32"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="11">
+                    <rect key="frame" x="0.0" y="772" width="152" height="152"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="bt_return_0_iPad.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="OnBack:" destination="-1" eventType="touchUpInside" id="44"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="12">
+                    <rect key="frame" x="0.0" y="914" width="768" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_rule_iPad.png" width="588" height="596"/>
+        <image name="bt_return_0_iPad.png" width="116" height="124"/>
+    </resources>
+</document>

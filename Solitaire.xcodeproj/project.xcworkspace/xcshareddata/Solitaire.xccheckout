@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3A4E3730-F883-48AE-81D8-3CEFE57431E7</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>102FCEDD2241CDAE55B808614DE3437E77A74FE1</key>
+		<string>https://github.com/arashpayan/appirater.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>102FCEDD2241CDAE55B808614DE3437E77A74FE1</key>
+		<string>appirater/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/arashpayan/appirater.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>102FCEDD2241CDAE55B808614DE3437E77A74FE1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>102FCEDD2241CDAE55B808614DE3437E77A74FE1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>appirater</string>
+		</dict>
+	</array>
+</dict>
+</plist>
