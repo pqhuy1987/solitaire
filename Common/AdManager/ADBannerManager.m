@@ -305,7 +305,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(ADBannerManager)
 -(void)creatGAD
 {
     self.GADView = [[GADBannerView alloc] init];
-    self.GADView.adUnitID = self.GAD_ID;
+    //self.GADView.adUnitID = self.GAD_ID;
     self.GADView.delegate = self;
     self.GADView.rootViewController = self.rootViewController;
     

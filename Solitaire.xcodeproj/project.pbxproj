@@ -3941,6 +3941,7 @@
 					"-lz",
 					"-lsqlite3",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.solitaire.100;
 				PRODUCT_NAME = solitaire6;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3971,6 +3972,7 @@
 					"-lz",
 					"-lsqlite3",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.solitaire.100;
 				PRODUCT_NAME = solitaire6;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
