@@ -16,8 +16,7 @@
 #import "AutoRate.h"
 #import "UserDefault.h"
 
-#import "ADBannerManager.h"
-#import "ADInterstitialManager.h"
+
 #import "MyGameCenterManager.h"
 
 
@@ -159,17 +158,6 @@
 	// make main window visible
 	[window_ makeKeyAndVisible];
     
-    [ADBannerManager sharedADBannerManager].rootViewController = director_;
-    [ADBannerManager sharedADBannerManager].isAdPositionAtTop = NO;
-    [ADBannerManager sharedADBannerManager].GAD_ID = [IdentifieManager sharedIdentifieManager].AdmobBanner_ID;
-    [ADBannerManager sharedADBannerManager].IAD_ID = [IdentifieManager sharedIdentifieManager].App_ID;
-    [ADBannerManager sharedADBannerManager].mode = ADBanner_GAD;
-    [[ADBannerManager sharedADBannerManager] load];
-    
-    [ADInterstitialManager sharedADInterstitialManager].rootViewController = director_;
-    [ADInterstitialManager sharedADInterstitialManager].GAD_ID = [IdentifieManager sharedIdentifieManager].AdmobInterstitial_ID;
-    [ADInterstitialManager sharedADInterstitialManager].mode = ADInterstitial_GAD;
-    [[ADInterstitialManager sharedADInterstitialManager] load];
     
     [MyGameCenterManager sharedMyGameCenterManager].rootViewController = director_;
     //[[MyGameCenterManager sharedMyGameCenterManager] authenticateLocalUser];

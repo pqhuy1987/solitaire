@@ -20,8 +20,6 @@
 #import "IdentifieManager.h"
 #import "AudioManager.h"
 #import "PuzzleRecord.h"
-#import "AbandonLayer.h"
-#import "AdBannerRespond.h"
 #import "StatisticsScene.h"
 @implementation TitleScene
 
@@ -137,24 +135,19 @@
         
         CCLabelTTF* lb_static = [CCLabelTTF labelWithString:NSLocalizedString(@"Statistics",nil) fontName:SYSTEM_FONT fontSize:fontSize1];
         CCMenuItemSpriteWithLabel* btStatics = [CCMenuItemSpriteWithLabel itemFromOneFile:@"bt_bg_0.png" Label:lb_static Postion:PosStatics target:self selector:@selector(OnStatistics:)];
-        [self addADRespondtoNode:btStatics];
-        
+
 
         CCMenuItemSprite* btHelp    = [CCMenuItemSprite itemFromOneFile:@"bt_help.png"  Postion:PosHelp   target:self selector:@selector(OnRules:)];
-        [self addADRespondtoNode:btHelp];
         
         CCMenuItemSprite* btLeader = [CCMenuItemSprite itemFromOneFile:@"bt_gamecenter.png" Postion:PosLeader target:self selector:@selector(OnLeader:)];
-        [self addADRespondtoNode:btLeader];
         
         CCMenuItemToggle* btMusic = [CCMenuItemToggle switchWithOffFile:@"bt_music_off.png" OnFile:@"bt_music_on.png" Position:PosMusic Target:self selector:@selector(OnMusic:)];
-        [self addADRespondtoNode:btMusic];
         if([AudioManager sharedAudioManager].music != 0)
             btMusic.selectedIndex = 1;
         else
             btMusic.selectedIndex = 0;
         
         CCMenuItemToggle* btSound = [CCMenuItemToggle switchWithOffFile:@"bt_sound_off.png" OnFile:@"bt_sound_on.png" Position:PosSound Target:self selector:@selector(OnSound:)];
-        [self addADRespondtoNode:btSound];
         if([AudioManager sharedAudioManager].sound != 0)
             btSound.selectedIndex = 1;
         else
@@ -187,7 +180,6 @@
         }
         
         CCMenuItemSprite* btBack = [CCMenuItemSprite itemFromOneFile:@"bt_return_0.png" Postion:PosBack target:self selector:@selector(OnBack:)];
-        [self addADRespondtoNode:btBack];
         
         CCMenu* menuOption = [CCMenu menuWithItems:btDraw1, btDraw3, btResume, btBack, nil];
         menuOption.position = CGPointZero;
@@ -206,13 +198,6 @@
     self.title = nil;
     self.option = nil;
     [super dealloc];
-}
-
--(void)addADRespondtoNode:(CCNode*)node
-{
-    AdBannerRespond* temp =  [AdBannerRespond node];
-    [node addChild:temp];
-    [temp load];
 }
 
 -(void)showTitleAnimated:(BOOL)isAnimated
@@ -411,8 +396,7 @@
     
     if([PuzzleRecord sharedPuzzleRecord].hasRecord)
     {
-        AbandonLayer* layer = [AbandonLayer layerWithMode:GameMode_One Type:AbandonType_REPLAY];
-        [self addChild:layer];
+
     }
     else
     {
@@ -429,8 +413,7 @@
     
     if([PuzzleRecord sharedPuzzleRecord].hasRecord)
     {
-        AbandonLayer* layer = [AbandonLayer layerWithMode:GameMode_Three Type:AbandonType_REPLAY];
-        [self addChild:layer];
+
     }
     else
     {

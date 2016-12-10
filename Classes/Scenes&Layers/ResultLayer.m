@@ -18,7 +18,6 @@
 #import "MailManager.h"
 #import "AudioManager.h"
 #import "AutoRate.h"
-#import "ADInterstitialManager.h"
 #import "VZShareManager.h"
 #import "Appirater.h"
 @implementation ResultLayer
@@ -195,10 +194,6 @@
     
 }
 
--(void)showRateOrAD
-{
-    [[ADInterstitialManager sharedADInterstitialManager] show];
-}
 
 -(void) OnReplay:(id) sender
 {

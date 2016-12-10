@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		58F37C281C02F8E000980AC1 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F37C051C02F8E000980AC1 /* Appirater.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		58F37C291C02F8E000980AC1 /* AppiraterLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58F37C071C02F8E000980AC1 /* AppiraterLocalizable.strings */; };
-		58F37C341C02FA3D00980AC1 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F37C2B1C02FA3D00980AC1 /* GoogleMobileAds.framework */; };
 		58F37C351C02FA3D00980AC1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58F37C321C02FA3D00980AC1 /* README.txt */; };
 		58F37C361C02FA3D00980AC1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 58F37C331C02FA3D00980AC1 /* README.txt */; };
 		58F37C381C02FA8400980AC1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F37C371C02FA8400980AC1 /* CoreMedia.framework */; };
@@ -163,15 +162,12 @@
 		F9906E15192FA331008FB424 /* StatisticsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A35192FA32F008FB424 /* StatisticsScene.m */; };
 		F9906E16192FA331008FB424 /* ThemeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A37192FA32F008FB424 /* ThemeLayer.m */; };
 		F9906E17192FA331008FB424 /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A39192FA32F008FB424 /* TitleScene.m */; };
-		F9906E18192FA331008FB424 /* ADBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A3D192FA32F008FB424 /* ADBannerManager.m */; };
-		F9906E19192FA331008FB424 /* ADInterstitialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A3F192FA32F008FB424 /* ADInterstitialManager.m */; };
 		F9906E1B192FA331008FB424 /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A44192FA32F008FB424 /* AudioManager.m */; };
 		F9906E1C192FA331008FB424 /* CCAnimation+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A47192FA32F008FB424 /* CCAnimation+Helper.m */; };
 		F9906E1D192FA331008FB424 /* CCFlipXLeftOver.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A49192FA32F008FB424 /* CCFlipXLeftOver.m */; };
 		F9906E1E192FA331008FB424 /* CCFlipXRightOver.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A4B192FA32F008FB424 /* CCFlipXRightOver.m */; };
 		F9906E1F192FA331008FB424 /* CCMenuItemSprite+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A4D192FA32F008FB424 /* CCMenuItemSprite+Helper.m */; };
 		F9906E20192FA331008FB424 /* CCMenuItemToggle+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A4F192FA32F008FB424 /* CCMenuItemToggle+Helper.m */; };
-		F9906E21192FA331008FB424 /* AdBannerRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A55192FA32F008FB424 /* AdBannerRespond.m */; };
 		F9906E22192FA331008FB424 /* CCMenuItemColorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A58192FA32F008FB424 /* CCMenuItemColorLabel.m */; };
 		F9906E23192FA331008FB424 /* CCMenuItemSpriteWithBG.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A5A192FA32F008FB424 /* CCMenuItemSpriteWithBG.m */; };
 		F9906E24192FA331008FB424 /* CCMenuItemSpriteWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9906A5C192FA32F008FB424 /* CCMenuItemSpriteWithLabel.m */; };
@@ -493,10 +489,8 @@
 		F99070AE192FA331008FB424 /* HelpScene_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9906DF6192FA330008FB424 /* HelpScene_iPad.xib */; };
 		F99070BB192FA430008FB424 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99070BA192FA430008FB424 /* CoreTelephony.framework */; };
 		F99070BD192FA438008FB424 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99070BC192FA438008FB424 /* MediaPlayer.framework */; };
-		F99070BF192FA43E008FB424 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99070BE192FA43E008FB424 /* AdSupport.framework */; };
 		F99070C1192FA445008FB424 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99070C0192FA445008FB424 /* StoreKit.framework */; };
 		F99070C3192FA44E008FB424 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99070C2192FA44E008FB424 /* SystemConfiguration.framework */; };
-		F99070C5192FA505008FB424 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99070C4192FA505008FB424 /* iAd.framework */; };
 		F99070C7192FA51E008FB424 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99070C6192FA51E008FB424 /* MessageUI.framework */; };
 		F9A6ED0C1A8C31EA0087FD1B /* VZShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A6ED081A8C31EA0087FD1B /* VZShareManager.m */; };
 		F9A6ED0D1A8C31EA0087FD1B /* VZShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A6ED0A1A8C31EA0087FD1B /* VZShareViewController.m */; };
@@ -873,10 +867,6 @@
 		F9906A37192FA32F008FB424 /* ThemeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeLayer.m; sourceTree = "<group>"; };
 		F9906A38192FA32F008FB424 /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
 		F9906A39192FA32F008FB424 /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
-		F9906A3C192FA32F008FB424 /* ADBannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBannerManager.h; sourceTree = "<group>"; };
-		F9906A3D192FA32F008FB424 /* ADBannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBannerManager.m; sourceTree = "<group>"; };
-		F9906A3E192FA32F008FB424 /* ADInterstitialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADInterstitialManager.h; sourceTree = "<group>"; };
-		F9906A3F192FA32F008FB424 /* ADInterstitialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADInterstitialManager.m; sourceTree = "<group>"; };
 		F9906A43192FA32F008FB424 /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
 		F9906A44192FA32F008FB424 /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
 		F9906A46192FA32F008FB424 /* CCAnimation+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCAnimation+Helper.h"; sourceTree = "<group>"; };
@@ -891,8 +881,6 @@
 		F9906A4F192FA32F008FB424 /* CCMenuItemToggle+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCMenuItemToggle+Helper.m"; sourceTree = "<group>"; };
 		F9906A51192FA32F008FB424 /* BZSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZSingleton.h; sourceTree = "<group>"; };
 		F9906A52192FA32F008FB424 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
-		F9906A54192FA32F008FB424 /* AdBannerRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdBannerRespond.h; sourceTree = "<group>"; };
-		F9906A55192FA32F008FB424 /* AdBannerRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdBannerRespond.m; sourceTree = "<group>"; };
 		F9906A57192FA32F008FB424 /* CCMenuItemColorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMenuItemColorLabel.h; sourceTree = "<group>"; };
 		F9906A58192FA32F008FB424 /* CCMenuItemColorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMenuItemColorLabel.m; sourceTree = "<group>"; };
 		F9906A59192FA32F008FB424 /* CCMenuItemSpriteWithBG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMenuItemSpriteWithBG.h; sourceTree = "<group>"; };
@@ -1343,14 +1331,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				58F37C381C02FA8400980AC1 /* CoreMedia.framework in Frameworks */,
-				58F37C341C02FA3D00980AC1 /* GoogleMobileAds.framework in Frameworks */,
 				F9A6ED1B1A8C43080087FD1B /* EventKitUI.framework in Frameworks */,
 				F9A6ED191A8C42EE0087FD1B /* EventKit.framework in Frameworks */,
 				F99070C7192FA51E008FB424 /* MessageUI.framework in Frameworks */,
-				F99070C5192FA505008FB424 /* iAd.framework in Frameworks */,
 				F99070C3192FA44E008FB424 /* SystemConfiguration.framework in Frameworks */,
 				F99070C1192FA445008FB424 /* StoreKit.framework in Frameworks */,
-				F99070BF192FA43E008FB424 /* AdSupport.framework in Frameworks */,
 				F99070BD192FA438008FB424 /* MediaPlayer.framework in Frameworks */,
 				F99070BB192FA430008FB424 /* CoreTelephony.framework in Frameworks */,
 				F990685B192FA1DE008FB424 /* GameKit.framework in Frameworks */,
@@ -1923,7 +1908,6 @@
 			isa = PBXGroup;
 			children = (
 				F9A6ED041A8C31EA0087FD1B /* Promote */,
-				F9906A3B192FA32F008FB424 /* AdManager */,
 				F9906A42192FA32F008FB424 /* AudioManager */,
 				F9906A45192FA32F008FB424 /* Catergories */,
 				F9906A50192FA32F008FB424 /* CommonDefine */,
@@ -1940,17 +1924,6 @@
 				F9906A9B192FA32F008FB424 /* utils */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		F9906A3B192FA32F008FB424 /* AdManager */ = {
-			isa = PBXGroup;
-			children = (
-				F9906A3C192FA32F008FB424 /* ADBannerManager.h */,
-				F9906A3D192FA32F008FB424 /* ADBannerManager.m */,
-				F9906A3E192FA32F008FB424 /* ADInterstitialManager.h */,
-				F9906A3F192FA32F008FB424 /* ADInterstitialManager.m */,
-			);
-			path = AdManager;
 			sourceTree = "<group>";
 		};
 		F9906A42192FA32F008FB424 /* AudioManager */ = {
@@ -1991,8 +1964,6 @@
 		F9906A53192FA32F008FB424 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				F9906A54192FA32F008FB424 /* AdBannerRespond.h */,
-				F9906A55192FA32F008FB424 /* AdBannerRespond.m */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -3045,7 +3016,6 @@
 				F99068B3192FA1DE008FB424 /* ccDeprecated.m in Sources */,
 				F9906E0F192FA331008FB424 /* HelpScene.m in Sources */,
 				F990697E192FA1DF008FB424 /* ccCArray.m in Sources */,
-				F9906E21192FA331008FB424 /* AdBannerRespond.m in Sources */,
 				F99068C5192FA1DE008FB424 /* ccGLStateCache.m in Sources */,
 				F990691E192FA1DF008FB424 /* ccShaders.m in Sources */,
 				F9906E1F192FA331008FB424 /* CCMenuItemSprite+Helper.m in Sources */,
@@ -3060,7 +3030,6 @@
 				F99069B2192FA1DF008FB424 /* SimpleAudioEngine.m in Sources */,
 				F9906E07192FA331008FB424 /* PuzzleRecord.m in Sources */,
 				F9906E31192FA331008FB424 /* Commodity.m in Sources */,
-				F9906E18192FA331008FB424 /* ADBannerManager.m in Sources */,
 				F9906E11192FA331008FB424 /* PauseLayer.m in Sources */,
 				F99069F2192FA1DF008FB424 /* IntroLayer.m in Sources */,
 				F9906E34192FA331008FB424 /* AdjustLayer.m in Sources */,
@@ -3162,7 +3131,6 @@
 				F99069C8192FA1DF008FB424 /* aabb.c in Sources */,
 				F9906E03192FA331008FB424 /* HistoryManager.m in Sources */,
 				F99069E0192FA1DF008FB424 /* vec2.c in Sources */,
-				F9906E19192FA331008FB424 /* ADInterstitialManager.m in Sources */,
 				F9906DFE192FA331008FB424 /* Card.m in Sources */,
 				F9906E15192FA331008FB424 /* StatisticsScene.m in Sources */,
 				F990691B192FA1DF008FB424 /* CCShaderCache.m in Sources */,

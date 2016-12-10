@@ -26,7 +26,6 @@
 
 #import "AudioManager.h"
 #import "PauseLayer.h"
-#import "AdBannerRespond.h"
 
 #import "SettingLayer.h"
 @implementation GameScene
@@ -221,7 +220,6 @@ static GameScene* instanceOfGameScene;
         CCSprite* UIBG = [CCSprite spriteWithFile:@"lb_black.png"];
         UIBG.position = PosUIBG;
         [self addChild:UIBG];
-        [self addADRespondtoNode:UIBG];
         
         _ready = NO;
         _arranged = NO;
@@ -266,16 +264,12 @@ static GameScene* instanceOfGameScene;
         CCLabelTTF* rules = [CCLabelTTF labelWithString:NSLocalizedString(@"Auto Finish",nil) fontName:SYSTEM_FONT fontSize:fontSize3];
         _autoFinish = [CCMenuItemSpriteWithLabel itemFromOneFile:@"bt_bg_1.png" Label:rules Postion:PosAuto target:self selector:@selector(onAutoFinish:)];
         _autoFinish.visible = NO;
-        [self addADRespondtoNode:_autoFinish];
         
         
         CCMenuItemSprite* btUndo = [CCMenuItemSprite itemFromOneFile:@"bt_undo.png" Postion:PosUndo target:self selector:@selector(onUndo:)];
-        [self addADRespondtoNode:btUndo];
         CCMenuItemSprite* btHint = [CCMenuItemSprite itemFromOneFile:@"bt_hint.png" Postion:PosHint target:self selector:@selector(onTip:)];
-        [self addADRespondtoNode:btHint];
         
         _btSetting = [CCMenuItemSprite itemFromOneFile:@"bt_set.png" Postion:PosSet target:self selector:@selector(onSetting:)];
-        [self addADRespondtoNode:_btSetting];
         
 
         CCMenu* menu = [CCMenu menuWithItems:btUndo, btHint, _btSetting, _autoFinish, nil];
@@ -423,12 +417,6 @@ static GameScene* instanceOfGameScene;
     [LevelManager sharedLevelManager].CardID = _cardID;
 }
 
--(void)addADRespondtoNode:(CCNode*)node
-{
-    AdBannerRespond* temp =  [AdBannerRespond node];
-    [node addChild:temp];
-    [temp load];
-}
 
 -(void)onEnter
 {
